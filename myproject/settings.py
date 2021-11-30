@@ -77,7 +77,6 @@ from . import database
 
 DATABASES = {
     'default': database.config()
-    }
 }
 
 

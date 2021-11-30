@@ -1,11 +1,8 @@
-from django.shortcuts import render
 from django.http import HttpResponse
 
 # Create your views here.
 
 def index(request):
-    # return HttpResponse(yhsj(9))
-    
     data = [[1], [1,1]]
     for i in range(3, 10):
         l = [1]

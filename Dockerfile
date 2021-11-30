@@ -10,8 +10,6 @@ WORKDIR /django-sample
 # 构建镜像时需要执行的命令
 RUN pip install -i https://pypi.douban.com/simple -r requirements.txt
 
-USER root
-
 # 每次启动镜像时需要执行的命令
 CMD python manage.py runserver 0:8000
 

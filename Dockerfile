@@ -11,7 +11,7 @@ WORKDIR /django-sample
 RUN pip install -i https://pypi.douban.com/simple -r requirements.txt
 
 # 每次启动镜像时需要执行的命令
-CMD sudo python manage.py runserver 0:8000
+CMD python manage.py runserver 0:8000
 
 # 公开一个端口
 EXPOSE 8000
